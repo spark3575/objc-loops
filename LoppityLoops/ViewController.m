@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *cars = @[@"Bimmer", @"Maserati", @"Bronco II"];
+    
+//    for (int x = 0; x < cars.count; x++) {
+//        NSString *car = [cars objectAtIndex:x];
+//        NSLog(@"Car: %@", car);
+//    }
+    
+    for (NSString *car in cars) {
+        NSLog(@"Car: %@", car);
+    }
+    
 }
 
 
